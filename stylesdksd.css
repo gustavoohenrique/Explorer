@@ -9,23 +9,11 @@ ul{
 }
 
 body{
-    background-image: url(./assets/bg.jpg);
+    background-image: url(./assets/bg_dksd.jpg);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #121214;
-}
-
-.button a {
-    text-decoration: none;
-    border: none;
-}
-
-.button {
-    text-align: right;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    
 }
 
 body * {
@@ -41,7 +29,7 @@ header{
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #C918AD 0%, #5CC2E2 50.52%, #5CC2E2 100%);
 
     border-radius: 50%;
 
@@ -74,7 +62,7 @@ main{
 section{
     color: white;
 
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #C918AD 0%, #5CC2E2 50.52%, #5CC2E2 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
@@ -111,7 +99,7 @@ section ul li:hover {
     transform: scale(1.1);
 }
 
-.games-list img {
+.movies-list img {
     width: 90px;
     border-radius: 8px;
 }
