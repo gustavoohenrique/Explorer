@@ -123,6 +123,48 @@ section ul li:hover {
 }
 
 
+/* From uiverse.io */
+
+
+button {
+float: right;
+ --glow-color: rgb(217, 176, 255);
+ --glow-spread-color: rgba(191, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --btn-color: rgb(100, 61, 136);
+ border: .01em solid var(--glow-color);
+ padding: .5em 1.5em;
+ color: var(--glow-color);
+ font-size: 15px;
+ background-color: var(--btn-color);
+ border-radius: .5em;
+ outline: none;
+ box-shadow: 0 0 .5em .15em var(--glow-color),
+        0 0 1em .2em var(--glow-spread-color),
+        inset 0 0 .25em .15em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+
+ transition: all 0.3s;
+}
+
+
+
+button:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 .8em .20em var(--glow-color),
+        0 0 2em .5em var(--glow-spread-color),
+        inset 0 0 .50em .25em var(--glow-color);
+}
+
+button:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+
+
+
 /* animation */
 
 header div{
